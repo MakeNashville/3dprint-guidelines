@@ -90,11 +90,10 @@ Attending an orientation is not required to print but encouraged. If you do not 
 * Run unload/load process under the “feeding” menu on each machine to swap filament.
 
 #### Bambu Lab with Automatic Material System (Mango, Huckleberry)
+❌ Do not use TPU, PVA, or other flexible filaments with AMS
 * Load filament by pushing the gray tab forward and inserting your filament in. 
     * Do not run the Load/Unload process from the “Feeding” menu
 * Cardboard spools MUST have printed rims installed before loading into the AMS.
-
-❌ Do not use TPU or other flexible filaments with AMS
 
 #### Prusa XL
 * Run Load, Unload, or Change filament under the "Filament" menu. Select the filament type of the filament you will be removing. 
@@ -106,9 +105,15 @@ Attending an orientation is not required to print but encouraged. If you do not 
 * ABS & ASA → Enclosures required
 * Everything else → ask in #3dprint
 
-### Common Troubleshooting
+## Common Troubleshooting
+### Wet Filament
+Indicators: You hear popping, see stringing, the surface looks rough, or the filament breaks easily when bending.
+- Keep filament below 30% RH (TPU & Nylon prefer under 20%).
+- Dry before long or structural prints, especially PETG or TPU.
+- Place a filament in a polydryer container, with filament sticking out the side filament hole, on top of the dryer. Remove after 4-8 hours and replace bottom hole caps. 
 
-#### Clogged Hot End
+### Clogged Hot End
+Indicators: Extrusion slows, stops, skips, or clicks
 1. Stop the print immediately
 2. Run the unload filament process.
 3. Remove the hot end and pull any obvious obstructions.
