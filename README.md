@@ -1,4 +1,5 @@
 # 3D Print Shop Guidelines
+These guidelines exist to keep printers running, parts successful, and the shop welcoming for everyone. 
 
 ### By using the space, you agree to:
 
@@ -22,10 +23,9 @@ Attending an orientation is not required to print but encouraged. If you do not 
 
 1. Open OrcaSlicer on the shop computer.
 2. Choose an available printer from the printer dropdown.
-3. Load your STL, obj, or 3mf file (you may need to use the SD cards, drive, airdrop, or email to load a custom file)
+3. Load your STL, OBJ, or 3MF file (via SD card, AirDrop, email, or USB).
 4. Slice!
 5. Choose “Print Plate”. If using a Bambu Lab printer, choose the correct fruit name a second time. 
-    1. Note: If a Sovol print is not sending, open Octoprint in the browser with the respective printers bookmark and click reconnect.
 6. Watch the first layer of your print start.
 7. Write your name on a whiteboard plate and place it in front of the printer. 
 8. When complete, clean your plate and return the whiteboard to the crate when complete.
@@ -42,7 +42,7 @@ Attending an orientation is not required to print but encouraged. If you do not 
 
 ❌  Do not change default printer settings or printer profiles.
 
-* After clicking “Print Plate”, (on Bambu Lab printers),  name your print with your slack display name + “-” + project name. 
+* After clicking “Print Plate”, (on Bambu Lab printers),  name your print with your Slack display name + “-” + project name. 
     * i.e: kevinahuber-pumpkin
     * Protip: Go to the #3dprint-info channel to monitor your print.
 
@@ -50,12 +50,14 @@ Attending an orientation is not required to print but encouraged. If you do not 
 ## Printer Setup
 
 * Spray each plate with a single spray of isopropyl alcohol (IPA) and wipe with a microfiber cloth before printing. 
-* Place a whiteboard with your slack display name in front of your print.
+* Place a whiteboard with your Slack display name in front of your print.
 
 ❌ Do not use the microfiber cloths to clean whiteboards.
 
 * Do not open the printer door while the printer is operating.
 * If a printer breaks, you may try to repair it or place a cone in front of it with a whiteboard label and post in slack with the printer’s status.
+
+
 
 ## Filament
 
@@ -65,7 +67,7 @@ Attending an orientation is not required to print but encouraged. If you do not 
 * Usage over 100g/month: Please bring your own filament or replace what you use with an equal or greater amount.
 * Have leftover filament? Want to see how others use a unique new filament? Just feeling generous? Donate to community filament! 
     * Write “community” clearly on the roll and add it to the rack. 
-* Filament on the rack is compatible with all devices unless labeled otherwise.
+* Filament on the rack is compatible with all devices unless labeled otherwise (AMS restrictions still apply).
 
 
 
@@ -74,45 +76,54 @@ Attending an orientation is not required to print but encouraged. If you do not 
 * Store personal filament here for you to use for active personal projects and parts. 
 * Write your name & the date brought in. 
 * Make sure to make it visible- repeat if needed. 
-* If you leave filament here and we cannot get ahold of you 3 months after storage date, we’ll convert it to community filament. Store it on the shelves in the closet/
+* If you leave filament here and we cannot get ahold of you 3 months after storage date, we’ll convert it to community filament. Store it on the shelves in the closet.
 
 ### Unloading/Loading
 
-* Bambu Lab: Run unload/load process under the “feeding” menu on each machine to swap filament. 
-* Sovols:
-* Prusa XL: 
+#### All Printers
 * Unwind and fix knots, kinks, and tangles before loading. 
 * ALWAYS check which filament you are printing with; never print with someone else’s filament without permission. 
-* Return unloaded filament to the correct community rack or on one of the personal filament shelfs. 
+* Return unloaded filament to the correct community rack or on one of the personal filament shelves. 
     * Protip: Run cleaning filament (in bins below machines) before and after using filaments with residue.
 
+#### Bambu Lab without AMS (Kiwi, Strawberry, Papaya)
+* Run unload/load process under the “feeding” menu on each machine to swap filament.
 
+#### Bambu Lab with Automatic Material System (Mango, Huckleberry)
+* Load filament by pushing the gray tab forward and inserting your filament in. 
+    * Do not run the Load/Unload process from the “Feeding” menu
+* Cardboard spools MUST have printed rims installed before loading into the AMS.
+
+❌ Do not use TPU or other flexible filaments with AMS
+
+#### Prusa XL
+* Run Load, Unload, or Change filament under the "Filament" menu. Select the filament type of the filament you will be removing. 
 
 ### Types of filament
 
 * PLA & PETG → All printers
-* TPU → Direct drive required (Kiwi, Strawberry, Papaya, and the Sovols) 
+* TPU → Direct drive required (Kiwi, Strawberry, Papaya) 
 * ABS & ASA → Enclosures required
 * Everything else → ask in #3dprint
 
+### Common Troubleshooting
 
-
-## Fundraising for Prusa XL Upgrades
-
-
-We are hoping to beef up our PrusaXL to five heads. This will allow us to specialize heads– TPU, smaller/larger sizes, etc. This will also allow us to print with five (!) colors/materials with little to no change cost. 
-
-Here’s the upgrade: Dual Head to Five Head Upgrade 
-
-To donate, send money with the memo “PrusaXL” to @MakeNashville on Venmo or a check/cash to staff (@user or @user). 
-
-We are a 501c(3) organization, ask for a receipt if you’d like! 
-
+#### Clogged Hot End
+1. Stop the print immediately
+2. Run the unload filament process.
+3. Remove the hot end and pull any obvious obstructions.
+4. Run a cold pull 
+5. Use the nozzle needle only while hot– never force it cold.
+6. If it still won’t flow, swap the nozzle (it’s often faster than fighting it).
 
 ## Resources
 
-https://wiki.bambulab.com/en/general/textured-PEI-plate-not-working-as-expected
-https://wiki.bambulab.com/en/p1/manual/replacing-filament
-https://all3dp.com/1/3d-printing-support-structures/
-https://wiki.bambulab.com/en/x1/troubleshooting/nozzle-clog
+- [Bambu Textured PEI Plate Not Working as Expected](https://wiki.bambulab.com/en/general/textured-PEI-plate-not-working-as-expected)
+- [Bambu Lab – Replacing Filament](https://wiki.bambulab.com/en/p1/manual/replacing-filament)
+- [All3DP – 3D Printing Support Structures Explained](https://all3dp.com/1/3d-printing-support-structures/)
+- [Bambu Lab – Nozzle Clog Troubleshooting](https://wiki.bambulab.com/en/x1/troubleshooting/nozzle-clog)
+- [Bambu Lab – AMS Troubleshooting Guide](https://wiki.bambulab.com/en/ams/troubleshooting)
+- [Prusa – Filament Types Overview](https://help.prusa3d.com/materials)
+- [All3DP – 3D Printer Stringing: Causes & Fixes](https://all3dp.com/2/3d-print-stringing-easy-ways-to-prevent-it/)
+- [Teaching Tech – 3D Printer Calibration Guide](https://teachingtechyt.github.io/calibration.html)
 
