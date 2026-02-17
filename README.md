@@ -6,7 +6,7 @@ Welcome to the 3D Print Shop! Whether this is your first print or your hundredth
 
 * Follow the community & personal filament guidelines below.
 * Share the printers fairly:
-    * **If you're in the lab:** Use a maximum of 2 printers at a time. Broken printers count as "in use."
+    * **If you're in the lab:** Use a maximum of 2 printers at a time. If you break a printer, it counts as one of your printers in use.
     * **If you're leaving the lab:** Limit yourself to 1 printer running.
 * Accept that others may move your completed prints.
 * Be kind and curious about things, situations, and others.
@@ -17,7 +17,7 @@ Welcome to the 3D Print Shop! Whether this is your first print or your hundredth
 
 ## Live Orientations
 
-Orientations are held biweekly, are open to all skill levels, and require pre-registration on Eventbrite. They fill up fast, so grab a spot early! Register by searching "Make Nashville" on Eventbrite or scanning the QR code.
+Orientations are held at least monthly, are open to all skill levels, and require pre-registration on Eventbrite. They fill up fast, so grab a spot early! [Register on Eventbrite](https://www.eventbrite.com/e/3d-print-shop-orientation-members-only-tickets-1978834964648) or scan the QR code.
 
 Attending an orientation is not required to print, but it's encouraged. If you don't follow the shop's rules and guidelines, you may need to retake an orientation before printing again.
 
@@ -27,13 +27,22 @@ Attending an orientation is not required to print, but it's encouraged. If you d
 New to 3D printing? Don't worry, the basic workflow is simpler than it looks:
 
 1. **Open OrcaSlicer** on the shop computer.
+
 2. **Pick an available printer** from the printer dropdown.
-3. **Load your file** (STL, OBJ, or 3MF) via SD card, AirDrop, email, or USB.
-4. **Slice it!** Hit the Slice button and review the preview.
-5. **Send it to print.** Click "Print Plate". For Bambu Lab printers, select the correct printer (fruit name) a second time.
-6. **Watch the first layer** go down. This is the most important part of the print. Stick around for the first few minutes.
-7. **Claim your printer.** Write your name on a whiteboard tag and place it in front of the printer.
-8. **When it's done,** clean the build plate, return the whiteboard tag to the crate, and grab your print!
+
+3. **Pick your filament type.** The generic profiles for each type (PLA, PETG, etc.) work great.
+
+4. **Load your file** (STL, OBJ, or 3MF) via SD card, AirDrop, email, or USB.
+
+5. **Slice it!** Hit the Slice button and review the preview.
+
+6. **Send it to print.** Click "Print Plate". For Bambu Lab printers, select the correct printer (fruit name) a second time.
+
+7. **Watch the first layer** go down. This is the most important part of the print. Stick around for the first few minutes.
+
+8. **Claim your printer.** Write your name on a whiteboard tag and place it in front of the printer.
+
+9. **When it's done,** remove your filament, clean the build plate, return the whiteboard tag to the crate, and grab your print!
 
 > **Learn more:** [OrcaSlicer Beginner's Guide (All3DP)](https://all3dp.com/2/orca-slicer-tutorial-first-steps/) | [Bambu Lab Filament Guide for Beginners](https://wiki.bambulab.com/en/knowledge-sharing/filament-guide-beginners)
 
@@ -45,10 +54,12 @@ New to 3D printing? Don't worry, the basic workflow is simpler than it looks:
     * Filament type
     * Process (print quality)
 
+  ![OrcaSlicer sidebar showing printer, filament, and process selectors](images/orcaslicer-full-sidebar.png)
+
 > ❌ Do not change default printer settings or printer profiles.
 
 * After clicking "Print Plate" on Bambu Lab printers, name your print with your **Slack display name + project name**, separated by a dash.
-    * Example: `kevinahuber-pumpkin`
+    * Example: `jsmith-pumpkin`
     * **Tip:** Join the #3dprint-info channel in Slack to monitor your print remotely.
 
 
@@ -56,6 +67,7 @@ New to 3D printing? Don't worry, the basic workflow is simpler than it looks:
 
 Before each print:
 * **Clean the build plate:** Give the plate a single spray of isopropyl alcohol (IPA) and wipe it down with a microfiber cloth. This removes oils and helps the first layer stick.
+
 * **Label your printer:** Place a whiteboard tag with your Slack display name in front of your printer.
 
 > ❌ Do not use the microfiber cloths to clean whiteboards.
@@ -92,6 +104,8 @@ Before each print:
 #### Bambu Lab without AMS (Kiwi, Strawberry, Papaya)
 * Use the **Feeding** menu on the printer's touchscreen to run the unload/load process.
 
+  ![P1S touchscreen showing the Load filament option](images/p1s-load-filament-screen.png)
+
 > **Learn more:** [Bambu Lab – Loading Filament on Spool Holder](https://wiki.bambulab.com/en/p1/manual/loading-filament)
 
 #### Bambu Lab with AMS (Mango, Huckleberry)
@@ -99,6 +113,8 @@ Before each print:
 > ❌ Do **not** use TPU, PVA, or other flexible filaments with the AMS.
 
 * **To load:** Push the gray tab forward and insert your filament. The AMS will pull it in automatically.
+
+  ![Pushing the gray tab on the AMS feeder to load filament](images/ams-push-gray-tab.jpeg)
     * Do **not** use the Load/Unload option in the "Feeding" menu for AMS printers.
 * **Cardboard spools** must have printed adapter rims installed before loading into the AMS.
 
@@ -117,7 +133,7 @@ Not sure which filament to use? Here's a quick cheat sheet:
 |----------|-----------|-------|
 | **PLA** | All printers | Easiest to print. Great for most projects. |
 | **PETG** | All printers | Stronger and more heat-resistant than PLA. A bit stringy. |
-| **TPU** | Kiwi, Strawberry, Papaya only | Flexible/rubbery. Needs a direct-drive extruder (no AMS). |
+| **TPU** | Kiwi, Papaya only | Flexible/rubbery. Needs a direct-drive extruder (no AMS). |
 | **ABS / ASA** | Enclosed printers only | Strong and heat-resistant, but requires ventilation. |
 | **Anything else** | Ask first! | Post in #3dprint before printing exotic materials. |
 
@@ -148,6 +164,8 @@ Filament absorbs moisture from the air over time, and Nashville humidity doesn't
 2. **Run the unload filament process** from the printer menu.
 3. **Inspect the nozzle.** Remove the hot end and pull out any visible obstructions.
 4. **Try a cold pull.** This is a technique where you heat the nozzle, push filament through, let it cool, then pull the filament out, bringing debris with it.
+
+   ![Cold pull result showing cone-shaped filament tip](images/cold-pull-result.jpg)
 5. **Use the nozzle needle** only while the nozzle is hot. Never force it when cold.
 6. **Still clogged?** Swap the nozzle entirely. It's often faster than fighting a stubborn clog.
 
