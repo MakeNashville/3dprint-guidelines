@@ -38,9 +38,8 @@ New to 3D printing? Don't worry, the basic workflow is simpler than it looks:
 > **Learn more:** [OrcaSlicer Beginner's Guide (All3DP)](https://all3dp.com/2/orca-slicer-tutorial-first-steps/) | [Bambu Lab Filament Guide for Beginners](https://wiki.bambulab.com/en/knowledge-sharing/filament-guide-beginners)
 
 
-## Community Computer
+## Using OrcaSlicer
 
-* **Password:** ***
 * In OrcaSlicer, make sure you select the correct:
     * Printer profile
     * Filament type
